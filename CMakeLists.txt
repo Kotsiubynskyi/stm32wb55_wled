@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15)
 set(CMAKE_TOOLCHAIN_FILE "STM32WB55_toolchain.cmake")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-project(stm32wb55_blink LANGUAGES C CXX ASM)
+project(stm32wb55_wled LANGUAGES C CXX ASM)
 
 # Source files
 add_executable(${PROJECT_NAME}
