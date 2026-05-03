@@ -10,7 +10,7 @@ The most complicated part is in `main.c` to correctly start timer in DMA mode.
     ```
 1. Clone the project:
     ```bash
-    git clone https://github.com/Kotsiubynskyi/stm32wb55_wled.git
+    git clone --recursive https://github.com/Kotsiubynskyi/stm32wb55_wled.git
     ```
 1. Generate build files:
     ```bash
