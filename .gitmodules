@@ -1,0 +1,3 @@
+[submodule "src/lib/wled"]
+	path = src/lib/wled
+	url = https://github.com/Kotsiubynskyi/ws2812b_dma_driver.git

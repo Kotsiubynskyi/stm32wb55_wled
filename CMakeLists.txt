@@ -25,14 +25,15 @@ add_executable(${PROJECT_NAME}
   src/hal/stm32wbxx_hal_tim_ex.c
   src/hal/stm32wbxx_hal_dma.c
 
-  src/lib/ws2812b.c
-  src/lib/ws2812b_animations.c
+  src/lib/wled/ws2812b.c
+  src/lib/wled/ws2812b_animations.c
 
 )
 
 # Directories with headers
 target_include_directories(${PROJECT_NAME} PRIVATE
   src/lib
+  src/lib/wled
   include
   include/hal
   include/hal/Legacy
